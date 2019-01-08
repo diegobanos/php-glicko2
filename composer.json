@@ -1,0 +1,25 @@
+{
+    "name": "diegowc/glicko2",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego Banos",
+            "email": "diegobanosfarinas@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Diegowc\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Diegowc\\Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    }
+}
