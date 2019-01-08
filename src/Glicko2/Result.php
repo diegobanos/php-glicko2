@@ -1,7 +1,7 @@
 <?php
-namespace Diegowc\Glicko2;
+namespace Diegobanos\Glicko2;
 
-use Diegowc\Glicko2\Rating\Rating;
+use Diegobanos\Glicko2\Rating\Rating;
 
 class Result
 {

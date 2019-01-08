@@ -1,9 +1,9 @@
 <?php
-namespace Diegowc\Glicko2;
+namespace Diegobanos\Glicko2;
 
-use Diegowc\Glicko2\Rating\Rating;
-use Diegowc\Glicko2\Rating\Transformer;
-use Diegowc\Glicko2\Volatility\Calculator;
+use Diegobanos\Glicko2\Rating\Rating;
+use Diegobanos\Glicko2\Rating\Transformer;
+use Diegobanos\Glicko2\Volatility\Calculator;
 
 class Glicko2
 {
