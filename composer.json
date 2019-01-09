@@ -1,6 +1,7 @@
 {
-    "name": "diegowc/glicko2",
+    "name": "diegobanos/php-glicko2",
     "type": "library",
+    "description": "A PHP glicko2 implementation with an easy to use interface",
     "license": "MIT",
     "authors": [
         {
@@ -10,12 +11,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Diegowc\\": "src/"
+            "Diegobanos\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Diegowc\\Tests\\": "tests/"
+            "Diegobanos\\Tests\\": "tests/"
         }
     },
     "require": {},

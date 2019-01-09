@@ -1,7 +1,7 @@
 <?php
-namespace Diegowc\Tests\Glicko2\Volatility;
+namespace Diegobanos\Tests\Glicko2\Volatility;
 
-use Diegowc\Glicko2\Volatility\Calculator;
+use Diegobanos\Glicko2\Volatility\Calculator;
 use PHPUnit\Framework\TestCase;
 
 class CalculatorTest extends TestCase

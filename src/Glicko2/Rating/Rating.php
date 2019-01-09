@@ -1,5 +1,5 @@
 <?php
-namespace Diegowc\Glicko2\Rating;
+namespace Diegobanos\Glicko2\Rating;
 
 class Rating
 {

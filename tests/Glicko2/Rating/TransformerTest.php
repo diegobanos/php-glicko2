@@ -1,8 +1,8 @@
 <?php
-namespace Diegowc\Tests\Glicko2\Rating;
+namespace Diegobanos\Tests\Glicko2\Rating;
 
-use Diegowc\Glicko2\Rating\Rating;
-use Diegowc\Glicko2\Rating\Transformer;
+use Diegobanos\Glicko2\Rating\Rating;
+use Diegobanos\Glicko2\Rating\Transformer;
 use PHPUnit\Framework\TestCase;
 
 class TransformerTest extends TestCase
