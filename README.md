@@ -1,4 +1,4 @@
-#php-glicko2
+# php-glicko2
 
 [![Build Status](https://travis-ci.org/diegobanos/php-glicko2.svg?branch=master)](https://travis-ci.org/diegobanos/php-glicko2)
 
