@@ -3,7 +3,7 @@ namespace Diegobanos\Tests\Glicko2;
 
 use Diegobanos\Glicko2\Glicko2;
 use Diegobanos\Glicko2\Rating\Rating;
-use Diegobanos\Glicko2\Result;
+use Diegobanos\Glicko2\Result\Result;
 use PHPUnit\Framework\TestCase;
 
 class Glicko2Test extends TestCase
