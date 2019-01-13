@@ -1,12 +1,12 @@
 <?php
-namespace Diegobanos\Glicko2;
+namespace Diegobanos\Glicko2\Result;
 
-use Diegobanos\Glicko2\Rating\Rating;
+use Diegobanos\Glicko2\Rating\RatingInterface;
 
-class Result
+class Result implements ResultInterface
 {
     /**
-     * @var Rating
+     * @var RatingInterface
      */
     private $rating;
 
@@ -15,13 +15,13 @@ class Result
      */
     private $result;
 
-    public function __construct(Rating $rating, float $result)
+    public function __construct(RatingInterface $rating, float $result)
     {
         $this->rating = $rating;
         $this->result = $result;
     }
 
-    public function getRating(): Rating
+    public function getRating(): RatingInterface
     {
         return $this->rating;
     }
