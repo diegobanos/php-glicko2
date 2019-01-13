@@ -2,7 +2,9 @@
 namespace Diegobanos\Glicko2;
 
 use Diegobanos\Glicko2\Rating\Rating;
+use Diegobanos\Glicko2\Rating\RatingInterface;
 use Diegobanos\Glicko2\Rating\Transformer;
+use Diegobanos\Glicko2\Result\Result;
 use Diegobanos\Glicko2\Volatility\Calculator;
 
 class Glicko2
@@ -23,7 +25,7 @@ class Glicko2
         $this->transformer = new Transformer;
     }
 
-    public function calculateRating(Rating $rating, array $results): Rating
+    public function calculateRating(RatingInterface $rating, array $results): RatingInterface
     {
         $normalizedRating = $this->transformer->normalizeRating($rating);
         $normalizedResults = [];
