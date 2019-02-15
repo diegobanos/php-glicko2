@@ -26,4 +26,23 @@ class Glicko2Test extends TestCase
         $this->assertEquals(151.52, $newRating->getRatingDeviation(), 'Rating deviation is not the expected', 0.01);
         $this->assertEquals(0.05999, $newRating->getVolatility(), 'Volatility is not the expected', 0.00001);
     }
+
+    public function testcalculateRatingUsingDefaultTauAndTol()
+    {
+        $glicko2 = new Glicko2;
+
+        $rating = new Rating(1500, 200, 0.06);
+
+        $results = [
+            new Result(new Rating(1400, 30, 0.06), 1),
+            new Result(new Rating(1550, 100, 0.06), 0),
+            new Result(new Rating(1700, 300, 0.06), 0)
+        ];
+
+        $newRating = $glicko2->calculateRating($rating, $results);
+
+        $this->assertEquals(1464.06, $newRating->getRating(), 'Rating is not the expected', 0.01);
+        $this->assertEquals(151.52, $newRating->getRatingDeviation(), 'Rating deviation is not the expected', 0.01);
+        $this->assertEquals(0.05999, $newRating->getVolatility(), 'Volatility is not the expected', 0.00001);
+    }
 }
