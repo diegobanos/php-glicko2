@@ -19,7 +19,7 @@ class Glicko2
      */
     private $transformer;
 
-    public function __construct(float $tau, float $tol)
+    public function __construct(float $tau = 0.5, float $tol = 0.000001)
     {
         $this->calculator = new Calculator($tau, $tol);
         $this->transformer = new Transformer;
