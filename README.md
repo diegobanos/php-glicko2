@@ -28,6 +28,10 @@ $updatedRating = $glicko2->calculateRating($rating, $results);
 
 You can also create your own `Rating` class that implements `Diegobanos\Glicko2\Rating\Rating\RatingInterface`.
 
+## Install
+
+composer require diegobanos/php-glicko2
+
 ## License
 
 MIT License
