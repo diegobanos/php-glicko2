@@ -2,6 +2,7 @@
     "name": "diegobanos/php-glicko2",
     "type": "library",
     "description": "A PHP glicko2 implementation with an easy to use interface",
+    "keywords": ["glicko", "glicko2", "rating", "ranking"],
     "license": "MIT",
     "authors": [
         {
